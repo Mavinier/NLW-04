@@ -34,6 +34,10 @@
   "rules": {
     "import/extensions": 0,
     "no-use-before-define": "off",
+    "no-restricted-properties": [2, {
+      "object": "disallowedObjectName",
+      "property": "disallowedPropertyName"
+  }],
     "@typescript-eslint/no-use-before-define": ["error"],
     "react/jsx-props-no-spreading": "off",
     "react/jsx-filename-extension": [
